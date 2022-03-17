@@ -11,6 +11,7 @@ import convince from '../../img/benefits/convince.svg';
 import feedback from '../../img/benefits/feedback.svg';
 import reputation from '../../img/benefits/reputation.svg';
 import visibility from '../../img/benefits/visibility.svg';
+import Articles from "../Articles/Articles";
 import './HomeBody.css';
 
 export default function HomeBody() {
@@ -31,9 +32,7 @@ export default function HomeBody() {
 
             <div className='grid gap-x-4 sm:gap-y-4 lg:grid-cols-3 sm:grid-cols-1 my-4'>
                     <div className='lg:col-span-2 sm:col-span-1'>
-                        <div className="w-full h-20 bg-white rounded-md drop-shadow-lg">
-                        
-                        </div>
+                        <Articles></Articles>
                     </div>
                     <div>
                         <div className='px-4 drop-shadow-lg h-auto w-full rounded-md bg-white'>
