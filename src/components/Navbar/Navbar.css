@@ -1,0 +1,9 @@
+.coll .content {
+  height: 0px;
+  overflow: hidden;
+  transition: height ease 0.3s;
+}
+
+.coll .content.show {
+  height: 300px;
+}
